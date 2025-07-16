@@ -1,0 +1,46 @@
+E:\Register-Account\SHOP DATA\bin\Debug\SHOP DATA.exe.config
+E:\Register-Account\SHOP DATA\bin\Debug\SHOP DATA.exe
+E:\Register-Account\SHOP DATA\bin\Debug\SHOP DATA.pdb
+E:\Register-Account\SHOP DATA\bin\Debug\IndexRange.dll
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Extensions.Options.dll
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\Register-Account\SHOP DATA\bin\Debug\Newtonsoft.Json.dll
+E:\Register-Account\SHOP DATA\bin\Debug\System.Buffers.dll
+E:\Register-Account\SHOP DATA\bin\Debug\System.ComponentModel.Annotations.dll
+E:\Register-Account\SHOP DATA\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Register-Account\SHOP DATA\bin\Debug\System.Memory.dll
+E:\Register-Account\SHOP DATA\bin\Debug\System.Numerics.Vectors.dll
+E:\Register-Account\SHOP DATA\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Register-Account\SHOP DATA\bin\Debug\System.Text.Encodings.Web.dll
+E:\Register-Account\SHOP DATA\bin\Debug\System.Text.Json.dll
+E:\Register-Account\SHOP DATA\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Register-Account\SHOP DATA\bin\Debug\System.ValueTuple.dll
+E:\Register-Account\SHOP DATA\bin\Debug\Telegram.Bot.dll
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Extensions.Options.xml
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.xml
+E:\Register-Account\SHOP DATA\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\Register-Account\SHOP DATA\bin\Debug\Newtonsoft.Json.xml
+E:\Register-Account\SHOP DATA\bin\Debug\System.Buffers.xml
+E:\Register-Account\SHOP DATA\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\Register-Account\SHOP DATA\bin\Debug\System.Memory.xml
+E:\Register-Account\SHOP DATA\bin\Debug\System.Numerics.Vectors.xml
+E:\Register-Account\SHOP DATA\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Register-Account\SHOP DATA\bin\Debug\System.Text.Encodings.Web.xml
+E:\Register-Account\SHOP DATA\bin\Debug\System.Text.Json.xml
+E:\Register-Account\SHOP DATA\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Register-Account\SHOP DATA\bin\Debug\System.ValueTuple.xml
+E:\Register-Account\SHOP DATA\bin\Debug\Telegram.Bot.xml
+E:\Register-Account\SHOP DATA\obj\Debug\SHOP DATA.csproj.AssemblyReference.cache
+E:\Register-Account\SHOP DATA\obj\Debug\SHOP DATA.csproj.CoreCompileInputs.cache
+E:\Register-Account\SHOP DATA\obj\Debug\SHOP DATA.csproj.Up2Date
+E:\Register-Account\SHOP DATA\obj\Debug\SHOP DATA.exe
+E:\Register-Account\SHOP DATA\obj\Debug\SHOP DATA.pdb

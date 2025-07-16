@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 using Telegram.Bot;
 using Telegram.Bot.Args;
@@ -11,6 +14,7 @@ namespace SHOP_DATA
     internal class Program
     {
         private static TelegramBotClient botClient;
+        private static HttpClient httpClient;
 
         static void Main(string[] args)
         {
@@ -22,6 +26,8 @@ namespace SHOP_DATA
             }
 
             botClient = new TelegramBotClient(tokenBot);
+            httpClient = new HttpClient();
+
             botClient.OnMessage += BotClient_OnMessage;
             botClient.StartReceiving();
 
@@ -37,7 +43,7 @@ namespace SHOP_DATA
             string chatID = e.Message.Chat.Id.ToString();
             string message = e.Message.Text.Trim();
 
-            if (message.Equals("DK", StringComparison.OrdinalIgnoreCase))
+            if (message.Equals("Dk", StringComparison.OrdinalIgnoreCase))
             {
                 try
                 {
@@ -56,14 +62,23 @@ namespace SHOP_DATA
                         { "email_code", "" }
                     };
 
-                    using (HttpClient client = new HttpClient())
-                    {
-                        var content = new FormUrlEncodedContent(formData);
-                        HttpResponseMessage response = await client.PostAsync(url, content);
-                        string responseString = await response.Content.ReadAsStringAsync();
+                    var content = new FormUrlEncodedContent(formData);
 
-                        await botClient.SendTextMessageAsync(e.Message.Chat, $"Email: {userName}\n\n{responseString}");
+                    HttpResponseMessage response = await httpClient.PostAsync(url, content);
+
+                    string responseBody = await response.Content.ReadAsStringAsync();
+
+                    dynamic jsonObject = JsonConvert.DeserializeObject(responseBody);
+
+                    if (jsonObject.data != null)
+                    {
+                        await botClient.SendTextMessageAsync(chatID, $"<b>Register Success</b>\nEmail: {userName}",Telegram.Bot.Types.Enums.ParseMode.Html);
                     }
+                    else
+                    {
+                        await botClient.SendTextMessageAsync(chatID, $"{jsonObject.message}");
+                    }
+
                 }
                 catch (Exception ex)
                 {
